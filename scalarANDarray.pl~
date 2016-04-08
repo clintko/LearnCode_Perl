@@ -1,0 +1,8 @@
+use strict;
+use warnings;
+
+$var1 = "test";
+$var2 = 12345;
+
+<STDIN>;
+

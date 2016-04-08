@@ -1,0 +1,10 @@
+use strict;
+use warnings;
+
+# specify a code block
+sub hello {
+    print "hello world\n"
+}
+
+# execute the code block
+&hello;

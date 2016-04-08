@@ -1,0 +1,8 @@
+# Youtube: Coding 101 22: Perl: Ifs, Thens, and Regular Expressions
+# https://www.youtube.com/watch?v=Tcnf6m32LG4&index=2&list=PLTmR6HsT7005r9J50_HCOGkyGc8dDYu7J&nohtml5=False
+use strict;
+use warnings;
+
+print "Please type in your age:\n";
+$age = <STDIN>;
+print "Your age is $age\n";
