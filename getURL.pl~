@@ -1,0 +1,14 @@
+use strict;
+use warnings;
+
+#Specify your URL
+#台南國賓影城
+$URL = "http://www.atmovies.com.tw/showtime/theater_t06608_a06.html";
+#台南新光影城
+#$URL = "http://www.atmovies.com.tw/showtime/theater_t06607_a06.html";
+#台南大遠百威秀影城
+#$URL = "http://www.atmovies.com.tw/showtime/theater_t06609_a06.html";
+
+# Open a stream in READ mode
+$handle = fopen ($URL, "r");
+print $handle;
